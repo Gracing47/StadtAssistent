@@ -1,0 +1,65 @@
+node_modules
+node_modules
+# See https://help.github.com/en/articles/ignoring-files#create-a-gitignore-file
+# for more information on how to write a .gitignore file
+
+# dependencies
+/node_modules/
+
+# build
+/build/
+/dist/
+
+# testing
+/coverage/
+
+# production
+/build/
+/dist/
+
+# temporary files
+*.log
+*.tmp
+*.temp
+
+# cache
+.npm
+.cache
+.parcel-cache
+
+# editor files
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# IDEs
+/.idea
+/.vscode
+
+# misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/*
+react-scripts.tsx
+verdaccio.log
+sentry.properties
+
+# directories
+__pycache__/
+node_modules/
+build/
+dist/
+jspm_packages/
+.svelte-kit/
+
+.next/
